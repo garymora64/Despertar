@@ -41,6 +41,7 @@ var numeroRandomPC = Math.floor(Math.random()*3 + 1);
 
 let puntosUsuarios =0;
 let puntosPC = 0;
+
 let instrucciones = document.querySelector("#instrucciones");
 let contenedorPuntosUsuarios = document.querySelector(".puntos-usuarios");
 let contenedorPuntosPC = document.querySelector(".puntos-pc");
@@ -49,10 +50,10 @@ let contenedorGanaPunto = document.querySelector("#gana-punto");
 let contenedorEleccionUsuario = document.querySelector("#eleccion-usuario");
 let contenedorEleccionPC = document.querySelector("#eleccion-computadora");
 let elegiTuArma = document.querySelector(".elegi-tu-arma");
-// contenedorPuntosUsuarios.innerText = 1; //innertext unicamente funciona con los ID con # y clase con .
-//contenedorEleccionPC.innerText = "asdadsadasda"; 
-//contenedorEleccionUsuario.innerText = "asdadsadasda";
-//contenedorPuntosPC.innerText = 1;
+/* contenedorPuntosUsuarios.innerText = 1; //innertext unicamente funciona con los ID con # y clase con .
+contenedorEleccionPC.innerText = "asdadsadasda"; 
+contenedorEleccionUsuario.innerText = "asdadsadasda";
+contenedorPuntosPC.innerText = 1;*/
 //mensaje.classList.add("disabled");
 //elegiTuArma.innerText = "asdadsadasda"; 
 
@@ -153,4 +154,3 @@ function reiniciarJuego(){
     contenedorPuntosUsuarios.innerText = puntosUsuarios;
     instrucciones.innerText = "El primero en llegar a 5 puntos gana.";
 }
-
